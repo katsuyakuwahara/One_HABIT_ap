@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:onClick="onButton1"
+        android:text="月曜日"
+        android:textSize="34sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="#ff0000"
+        android:onClick="onButton2"
+        android:text="火曜日"
+        android:textSize="34sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="#0000ff"
+        android:onClick="onButton3"
+        android:text="水曜日"
+        android:textSize="34sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="#00ff00"
+        android:onClick="onButton4"
+        android:text="木曜日"
+        android:textSize="34sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="#ead61c"
+        android:onClick="onButton5"
+        android:text="金曜日"
+        android:textSize="34sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="#845422"
+        android:onClick="onButton6"
+        android:text="土曜日"
+        android:textSize="34sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="#f2e2cd"
+        android:onClick="onButton7"
+        android:text="日曜日"
+        android:textSize="34sp" />
+</LinearLayout>
